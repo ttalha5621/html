@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    
+    <title>content Slider</title>
+    <style>
+        body{
+            margin: 0;
+            padding:0;
+        }
+        /* .center{
+            border:2px solid black;
+            top:50%;
+            left:50%;
+        } */
+        ul{
+            position: absolute;
+            top:0;
+            left:0;
+            margin: 0;
+            padding: 0;
+            background: #ccc;/*e0a73f*/
+            width:100%;
+            height: 100vh;
+            
+        }
+        ul li{
+            position: relative;
+            list-style:none;
+            width: 20%;
+            height: 100%;
+            box-sizing: border-box;
+            float: left;
+            transition:0.5s;
+            text-align:center;
+            overflow: hidden;
+        }
+        ul li:nth-child(1){
+            background: #e67e22;
+            background-size:cover;
+            background-position: left;
+        }
+        ul li:nth-child(2){
+            background:#2c3e50;
+            background-size:cover;
+            background-position: left;
+        }
+        ul li:nth-child(3){
+            background: #c0392b;
+            background-size:cover;
+            background-position: left;
+        }
+        ul li:nth-child(4){
+            background:#5352ed;
+            background-size:cover;
+            background-position: left;
+        }
+        ul li:nth-child(5){
+            background: #8e44ad;
+            background-size:cover;
+            background-position: left;
+        }
+        ul:hover li{
+            width:10%;
+        }
+        ul li:hover {
+            width:60%;
+        }
+        ul li .content{
+            position: absolute;
+            bottom:-500%;
+            left: 0;
+            width:100%;
+            background:#00000012;
+            box-sizing: border-box;
+            color: #fff;
+        }
+        ul li .content h1{
+        font-size:22px;
+        color:#FFF;
+        }
+        ul li:hover .content{
+            bottom: 0;
+            transition: 0.5s;
+            transition-delay: 0.3s;
+        }
+    </style>
+  </head>
+  <body>
+	 <div class="center"> 
+    <ul>
+        <li>
+			<div class="content">
+				<h1>What is HTML ?</h1>
+				<P>
+					HTML is the standard markup language for creating Web pages.
+
+						HTML stands for Hyper Text Markup Language
+						HTML describes the structure of a Web page
+						HTML consists of a series of elements
+						HTML elements tell the browser how to display the content
+						
+				</P>
+			</div>
+		</li>
+        <li>
+			<div class="content">
+				<h1>What is Css ?</h1>
+				<P>
+					CSS is a language that describes the style of an HTML document.
+						CSS describes how HTML elements should be displayed.
+						This tutorial will teach you CSS from basic to advanced.
+				</P>
+			</div></li>
+        <li>
+		<div class="content">
+				<h1>What is Javascript ?</h1>
+				<P>
+					JavaScript is the programming language of HTML and the Web.
+						JavaScript is easy to learn.
+						This tutorial will teach you JavaScript from basic to advanced.
+			</P>
+			</div>
+		</li>
+        <li>
+		<div class="content">
+				<h1>What is Bootstrap ?</h1>
+				<P>
+					Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.
+					Bootstrap is completely free to download and use!
+			</P>
+			</div>
+		</li>
+		<li>
+		<div class="content">
+				<h1>What is Angular ?</h1>
+				<P>
+					AngularJS is a JavaScript Framework
+					AngularJS is a JavaScript framework written in JavaScript.
+
+					AngularJS is distributed as a JavaScript file, and can be added to a web page with a script tag:
+				</P>
+			</div>
+		</li>
+    </ul>
+</div>
+</body>
+</html>
