@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iqra University</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            background-color:white;
+            margin:auto;
+            font-size: 28px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        header {
+            
+            background-color: transparent;
+            text-decoration: none;
+        
+        }
+        .center{
+            display:block;
+            margin-left:auto;
+            margin-right: auto;
+        }
+       
+        .topnav .c1{
+           position:sticky;
+           top:0;
+        }
+        .c1{
+            background-image:  linear-gradient( #618eac 0%, #0c3f62 100%);
+            display:block;
+            width:100%;
+          }
+        
+        
+        .topnav ul a{
+        
+            display: inline-block;
+            margin:0;
+            padding:2px;
+            text-decoration: none;
+            box-sizing:border-box;
+           
+        
+        }
+        .topnav ul li{
+            
+            display:inline-block;
+            position: relative;
+            padding :0;
+         
+
+        }
+        .topnav ul li a{
+            text-decoration:none;
+            padding:14px 16px;
+            color:#f2f2f2;
+            font-size: 17px;
+            display:block;
+        }
+        
+        .topnav ul li :hover{
+            
+            background-color:rgb(211, 227, 228);
+            color:#1a80b6;
+
+
+        }
+        .topnav ul li a.active{
+            
+            border: 6px;
+            background-color: rgb(211, 227, 228);
+            color: #1a80b6;
+            border-color: #1a80b6;
+            
+        }
+       
+        .topnav ul li ul{
+            padding:3px;
+            position: absolute;
+            top:48px;
+            left:-3px;
+            width:auto;
+            /* display:none; */
+            visibility:hidden;
+
+        }
+
+        .topnav ul li ul li{
+            
+            background:rgb(88, 87, 87);
+            display:block;
+            
+        }
+        .topnav ul li ul li:hover{
+         
+            border: 1px solid blueviolet;
+           
+        }
+        .topnav ul li:hover ul{
+            display:block;
+            opacity:1;
+            visibility:visible;
+
+        }
+        
+        .topnav ul li:hover> ul{
+            display:block;
+        }
+        .content{
+            padding:16px;
+            padding-top:auto;
+            background-color: blueviolet;
+            text-align: justify;
+        }
+/* 
+        #slider{
+            overflow:hidden;
+        }
+        #slider figure{
+            position:relative;
+            width:400%;
+            margin:0;
+            left:0;
+            animation:20s slider infinite;
+        }
+        #slider figure img{
+            width:20%;
+            float:left;
+
+        }
+        @keyframes slider{
+            0%{
+                left:0;
+            }
+            20%{
+                left:0;
+            }
+            25%{
+                left:-100;
+            }
+            45%{
+                left:-100;
+            }
+            50%{
+                left:-200;
+            }
+            70%{
+                left:-200;
+            }
+            75%{
+                left:-300;
+            }
+            95%{
+                left:-300;
+            }
+            100%{
+                left:-100;
+            }
+           
+        }
+      */
+        .container{
+            
+            display:flex;
+            flex:wrap;
+        }
+        .footer{
+            text-align: left;
+            background-color:rgb(97, 176, 240) ;
+            padding:5px 5px 5px 5px;
+            color:white;
+            font-size: 12px;
+            border:1px solid white;
+            width:100%;
+            position:fixed;
+            left:0;
+            bottom:0;
+        }
+        .footer a{
+            text-decoration: none;
+            color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="iuic.jpg" width="80%" class="center">
+        </div>
+      
+        <div class="topnav" class="container">
+            <div class="c1">
+                <ul>
+                    <li><a class="active" href="#">HOME</a></li>
+                    <li><a href="#">ABOUT IU</a>
+                        <ul class="">
+                            <li><a href="https://iuisl.iqra.edu.pk/">MESSAGE</a></li>
+                            <li><a href="#">MISSION STATEMENT</a></li>
+                            <li><a href="#">INTRODUCTION</a></li>
+                            <li><a href="#">AIMS & OBJECTION</a></li>
+                            <li><a href="#">OTHER CAMPUSES</a></li>
+                        </ul>
+                    </li>    
+                    <li><a href="#">RESOURSES</a>
+                        <ul class="">
+                            <li><a href="#">SOCIETEIS</a></li>
+                            <li><a href="#">MEDICAL</a></li>
+                            <li><a href="#">LIBRARY VISION</a></li>
+                            <li><a href="#">50,000 E-BOOKS</a></li>
+                            <li><a href="#">DIGITAL LIBRARY</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">PROGRAMS</a></li>
+                    <li><a href="#">FACILITY</a></li>
+                    <li><a href="#">ASDMISSION</a>
+                        <ul class="">
+                            <li><a href="#">ADMISSION FORM</a></li>
+                            <li><a href="#">APPLY ONLINE</a></li>
+                            <li><a href="#">PROSPECTUS 2020</a></li>
+                            <li><a href="#">ADMISSION PROCEDURE</a></li>
+                            <li><a href="#">FEE & FINANCE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">IQRA ONLINE</a>
+                        <ul class="">
+                            <li><a href="#">IQRA EMAIL</a></li>
+                            <li><a href="#">IQRA LMS</a></li>
+                            <li><a href="#">CAREER PORTAL</a></li>
+                        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <iframe src="SignIn.html" width="500" height="400">
+                <p>iframes are not supported</p>
+            </iframe>
+            <!-- <div id="slider">
+                <figure>
+                    <img src="image/1.jpg">
+                    <img src="image/2.jpg">
+                    <img src="image/3.jpg">
+                    <img src="image/4.jpg">
+                    <img src="image/1.jpg">
+                </figure>
+            </div> -->
+          <div class="content">
+            
+
+            <h1>Sticky Navigation Example</h1>
+
+            <h2>Scroll this page to see the effect</h2>
+            <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+          
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+            <p>Some text some text some text some text..</p>
+          </div>
+        </div>
+<div class="footer">
+    <p>Copyright 2020 Iqra University| All Rights Reserved</p>
+    <div>
+    <a href="#">Home |</a>
+    <a href="#">Policies|</a>
+    <a href="#">Facility|</a>
+    <a href="#">Programs|</a>
+    <a href="#">Admissions|</a>
+    <a href="#">Contact us</a>
+    </div>
+</div>
+        
+</body>
+</html>
